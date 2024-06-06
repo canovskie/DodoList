@@ -1,12 +1,5 @@
 import SwiftUI
 
-struct Note: Identifiable {
-    let title: String
-    let description: String
-    let id: UUID
-    let date: Date
-}
-
 struct AddNoteView: View {
     @State var title = ""
     @State var description = ""

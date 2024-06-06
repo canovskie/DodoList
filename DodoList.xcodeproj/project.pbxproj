@@ -12,6 +12,7 @@
 		36439A962C0E365A001402FB /* DodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36439A952C0E365A001402FB /* DodoListApp.swift */; };
 		36439A9A2C0E365C001402FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36439A992C0E365C001402FB /* Assets.xcassets */; };
 		36439A9D2C0E365C001402FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36439A9C2C0E365C001402FB /* Preview Assets.xcassets */; };
+		36A5AB0A2C10DA8D00E2AEA8 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A5AB092C10DA8D00E2AEA8 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		36439A952C0E365A001402FB /* DodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DodoListApp.swift; sourceTree = "<group>"; };
 		36439A992C0E365C001402FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36439A9C2C0E365C001402FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36A5AB092C10DA8D00E2AEA8 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				36439A952C0E365A001402FB /* DodoListApp.swift */,
 				3625D4812C0E652900BAFF30 /* AddNoteView.swift */,
 				3625D4832C0E75D200BAFF30 /* ContentView.swift */,
+				36A5AB092C10DA8D00E2AEA8 /* Note.swift */,
 				36439A992C0E365C001402FB /* Assets.xcassets */,
 				36439A9B2C0E365C001402FB /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				36439A962C0E365A001402FB /* DodoListApp.swift in Sources */,
 				3625D4822C0E652900BAFF30 /* AddNoteView.swift in Sources */,
 				3625D4842C0E75D200BAFF30 /* ContentView.swift in Sources */,
+				36A5AB0A2C10DA8D00E2AEA8 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

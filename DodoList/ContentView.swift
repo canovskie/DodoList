@@ -1,14 +1,7 @@
-//
-//  ContentView.swift
-//  DodoList
-//
-//  Created by Can on 4.06.2024.
-//
-
 import SwiftUI
 
 struct ContentView: View {
-    @State var notes: [Note] = []
+    @State var notes: [Note] = loadNotes()
     
     var dateTimeFormat: DateFormatter {
         let formatter = DateFormatter()
@@ -31,7 +24,8 @@ struct ContentView: View {
                     
                         }
                     }
-                }.onDelete(perform: deleteItems)
+                }
+                .onDelete(perform: deleteItems)
                 .onMove(perform: move)
             }
             .navigationBarItems(leading: NavigationLink(destination: AddNoteView(notes: $notes)) {
@@ -43,6 +37,9 @@ struct ContentView: View {
             .toolbar { EditButton() }
             .navigationBarTitleDisplayMode(.inline)
         }
+        .onChange(of: notes, perform: { _ in
+            saveNotes(notes)
+        })
     }
     
     func deleteItems(at offsets: IndexSet) {
